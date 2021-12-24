@@ -81,5 +81,8 @@ void print_mS() {
 void loop() {
   loopTimer.check(Serial);  //debug output
   blinkLed13();             // blink the led
+  //add Mechatronic system statemachine
+  //add communication system statemachine
+  //add packetized data reciever (command)
   packetizedTransfer();     //Packetized transfer for data exchange
 }
